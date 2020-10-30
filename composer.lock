@@ -1204,7 +1204,13 @@
             "time": "2020-06-14T09:00:00+00:00"
         },
         {
-            
+            "name": "gathercontent/htmldiff",
+            "version": "0.2.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/gathercontent/htmldiff.git",
+                "reference": "24674a62315f64330134b4a4c5b01a7b59193c93"
+            },
             "dist": {
                 "type": "zip",
                 "url": "https://api.github.com/repos/gathercontent/htmldiff/zipball/24674a62315f64330134b4a4c5b01a7b59193c93",
@@ -1212,7 +1218,8 @@
                 "shasum": ""
             },
             "require": {
-                "cogpowered/finediff": "0.3.1"
+                "cogpowered/finediff": "0.3.1",
+                "ext-tidy": "*"
             },
             "require-dev": {
                 "phpunit/phpunit": "4.*",
@@ -1263,7 +1270,7 @@
                 "ext-json": "*",
                 "guzzlehttp/promises": "^1.0",
                 "guzzlehttp/psr7": "^1.6.1",
-                "php": ">=7.2",
+                "php": ">=5.5",
                 "symfony/polyfill-intl-idn": "^1.17.0"
             },
             "require-dev": {
@@ -1327,7 +1334,7 @@
                 "shasum": ""
             },
             "require": {
-                "php": ">=7.2.26"
+                "php": ">=5.5.0"
             },
             "require-dev": {
                 "phpunit/phpunit": "^4.0"
@@ -1378,7 +1385,7 @@
                 "shasum": ""
             },
             "require": {
-                "php": ">=7.2.26",
+                "php": ">=5.4.0",
                 "psr/http-message": "~1.0",
                 "ralouphie/getallheaders": "^2.0.5 || ^3.0.0"
             },
@@ -1451,7 +1458,7 @@
             "require": {
                 "ext-fileinfo": "*",
                 "guzzlehttp/psr7": "~1.1",
-                "php": ">=7.2.26"
+                "php": ">=5.4.0"
             },
             "require-dev": {
                 "mockery/mockery": "~0.9.2",
@@ -1519,7 +1526,7 @@
                 "shasum": ""
             },
             "require": {
-                "php": ">=7.2.26"
+                "php": ">=5.4.0"
             },
             "require-dev": {
                 "jakub-onderka/php-code-style": "1.0",
@@ -1564,7 +1571,7 @@
             "require": {
                 "ext-tokenizer": "*",
                 "jakub-onderka/php-console-color": "~0.2",
-                "php": ">=7.2.26"
+                "php": ">=5.4.0"
             },
             "require-dev": {
                 "jakub-onderka/php-code-style": "~1.0",
@@ -8683,7 +8690,7 @@
         "ext-gd": "*",
         "ext-json": "*",
         "ext-mbstring": "*",
-       
+        "ext-tidy": "*",
         "ext-xml": "*"
     },
     "platform-dev": [],

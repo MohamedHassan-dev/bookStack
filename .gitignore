@@ -17,7 +17,6 @@ _ide_helper.php
 .phpstorm.meta.php
 yarn.lock
 /bin
-/composer.lock
 nbproject
 .buildpath
 .project

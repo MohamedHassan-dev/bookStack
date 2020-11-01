@@ -11,8 +11,8 @@
                     <p class="text-uppercase text-muted mb-xm mt-l"><strong>Getting Started</strong></p>
 
                     <div class="text-mono">
-                        <div class="mb-xs"><a href="#authentication">Authen ti cation</a></div>
-                        <div class="mb-xs"><a href="#request-format">Request Fo rmat</a></div>
+                        <div class="mb-xs"><a href="#authentication">Authentication</a></div>
+                        <div class="mb-xs"><a href="#request-format">Request Format</a></div>
                         <div class="mb-xs"><a href="#listing-endpoints">Listing Endpoints</a></div>
                         <div class="mb-xs"><a href="#error-handling">Error Handling</a></div>
                     </div>
